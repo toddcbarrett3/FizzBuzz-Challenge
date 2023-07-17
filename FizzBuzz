@@ -12,4 +12,8 @@ public static string FizzBuzz(int number)
     {
         return "buzz";
     }
+    else
+    {
+        return $"{number}";
+    }
 }
